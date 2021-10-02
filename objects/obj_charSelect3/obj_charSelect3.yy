@@ -31,7 +31,7 @@
     "path": "folders/Objects/charSelect.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_char3Select",
+  "name": "obj_charSelect3",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_char1Select",
-    "path": "sprites/spr_char1Select/spr_char1Select.yy",
+    "name": "spr_char2Select",
+    "path": "sprites/spr_char2Select/spr_char2Select.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/charSelect.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_char1Select",
+  "name": "obj_charSelect2",
   "tags": [],
   "resourceType": "GMObject",
 }

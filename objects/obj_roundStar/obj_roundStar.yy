@@ -23,8 +23,8 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":32.0,"y":32.0,},
-    {"x":32.0,"y":32.0,},
+    {"x":16.0,"y":16.0,},
+    {"x":16.0,"y":16.0,},
   ],
   "eventList": [],
   "properties": [],
