@@ -1,8 +1,8 @@
 {
   "resources": [
     {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},"order":0,},
-    {"id":{"name":"obj_char1Select","path":"objects/obj_char1Select/obj_char1Select.yy",},"order":0,},
-    {"id":{"name":"obj_char2Select","path":"objects/obj_char2Select/obj_char2Select.yy",},"order":1,},
+    {"id":{"name":"obj_charSelect1","path":"objects/obj_charSelect1/obj_charSelect1.yy",},"order":0,},
+    {"id":{"name":"obj_charSelect2","path":"objects/obj_charSelect2/obj_charSelect2.yy",},"order":1,},
     {"id":{"name":"spr_char3Select","path":"sprites/spr_char3Select/spr_char3Select.yy",},"order":2,},
     {"id":{"name":"obj_form","path":"objects/obj_form/obj_form.yy",},"order":2,},
     {"id":{"name":"obj_roundStar","path":"objects/obj_roundStar/obj_roundStar.yy",},"order":3,},

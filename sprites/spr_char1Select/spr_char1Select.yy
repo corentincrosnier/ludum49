@@ -35,7 +35,7 @@
     "spriteId": {"name":"spr_char1Select","path":"sprites/spr_char1Select/spr_char1Select.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
