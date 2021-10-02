@@ -13,7 +13,7 @@
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
   "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
+  "physicsFriction": 0.0,
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
@@ -25,6 +25,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_dynamicObject","path":"objects/obj_dynamicObject/obj_dynamicObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_staticObject","path":"objects/obj_staticObject/obj_staticObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

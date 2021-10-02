@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_form2",
-    "path": "sprites/spr_form2/spr_form2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -11,7 +8,7 @@
     "name": "obj_form",
     "path": "objects/obj_form/obj_form.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -28,7 +25,9 @@
     {"x":64.0,"y":64.0,},
     {"x":0.0,"y":64.0,},
   ],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -36,7 +35,7 @@
     "path": "folders/Objects/Forms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_form2",
+  "name": "obj_box_square",
   "tags": [],
   "resourceType": "GMObject",
 }
