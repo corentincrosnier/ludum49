@@ -44,3 +44,9 @@ enum e_piece_type {
 }
 
 randomize();
+
+audio_sound_gain(snd_theme1V2, 1, 0);
+audio_sound_gain(snd_theme2Trim, 0.5, 0);
+audio_sound_gain(snd_countdown, 0.4, 0);
+audio_sound_gain(snd_timer_start, 0.4, 0);
+audio_sound_gain(snd_loss, 0.4, 0);

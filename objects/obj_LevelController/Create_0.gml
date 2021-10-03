@@ -104,5 +104,15 @@ piece_tab[15][3] = e_piece_type.circle;
 
 fail = false;
 audio_play_sound(snd_timer_start, 1, false);
+
+switch(theme)
+{
+	case 0:
+		audio_play_sound(snd_theme1V2, 1, true);
+		break;
+	case 1:
+		audio_play_sound(snd_theme2Trim, 1, true);
+		break;
+}
 alarm[0]=room_speed*3;
 //alarm[0]=2;
