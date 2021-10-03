@@ -12,6 +12,6 @@ switch(theme){
 		room_goto(Room2);
 		break;
 	case 2:
-		room_goto(Room1);
+		room_goto(Room3);
 		break;
 }

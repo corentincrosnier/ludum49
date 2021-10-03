@@ -7,6 +7,11 @@ for (i = 0; i < array_length(piece_array); i += 1)
 
 cur_progression = 0;
 if (fail == false)
+{
+	audio_play_sound(snd_timer_start, 1, false);
+	alarm[0]=room_speed * 3;
 	level++;
+}
+else
+	alarm[0]=room_speed * spawnTime;
 fail = false;
-alarm[0]=room_speed*spawnTime

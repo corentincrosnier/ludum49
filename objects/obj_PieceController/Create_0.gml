@@ -5,7 +5,8 @@ spawnTime=1;
 spawnPointX=room_width/2;
 spawnPointY=-32;
 spawnRangeX=50;
-spawnRangeY=0;
+
+cur_piece_spawn_x = 0;
 
 
 //alarm[0]=room_speed*spawnTime;

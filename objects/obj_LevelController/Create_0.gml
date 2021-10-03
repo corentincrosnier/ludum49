@@ -7,6 +7,9 @@ spawnPointY=-32;
 spawnRangeX=40;
 spawnRangeY=0;
 
+cur_piece_spawn_x = 0;
+cursor_spawn_y = 16;
+
 cur_progression = 0;
 
 nb_level = 15;
@@ -100,5 +103,6 @@ piece_tab[15][2] = e_piece_type.square;
 piece_tab[15][3] = e_piece_type.circle;
 
 fail = false;
-alarm[0]=room_speed*spawnTime;
+audio_play_sound(snd_timer_start, 1, false);
+alarm[0]=room_speed*3;
 //alarm[0]=2;

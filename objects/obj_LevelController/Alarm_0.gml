@@ -12,14 +12,16 @@
 
 if (!fail && level < nb_level && cur_progression < array_length(piece_tab[level]))
 {
-	var sp_x = irandom_range(spawnPointX-spawnRangeX,spawnPointX+spawnRangeX);
-	var sp_y = irandom_range(spawnPointY-spawnRangeY,spawnPointY+spawnRangeY);
-	piece_array[cur_progression] = instance_create_layer(sp_x, sp_y, "Instances", form_objs[theme][piece_tab[level][cur_progression]]);
-	cur_progression++;
+	cur_piece_spawn_x = irandom_range(spawnPointX-spawnRangeX,spawnPointX+spawnRangeX);
+	var sp_x = cur_piece_spawn_x;
+	var sp_y = cursor_spawn_y - sprite_get_height(object_get_sprite(asset_get_index("obj_spawnPieceCursor")));
+	instance_create_layer(sp_x, sp_y, "Instances_front", obj_spawnPieceCursor);
+	alarm[2] = room_speed * 2;
 }
 
 else if (!fail && level < nb_level && cur_progression == array_length(piece_tab[level]))
 {
-	alarm[1] = room_speed * 5;
+	alarm[1] = room_speed * 4;
+	audio_play_sound(snd_countdown, 1, false);
 }
 

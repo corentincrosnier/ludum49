@@ -20,7 +20,8 @@ if (!fail)
 		if(piece_array[i].y > room_height+32){
 			fail = true;
 			alarm[1] = room_speed * 2;
-			show_debug_message("DEAD");
+			audio_play_sound(snd_loss, 1, false);
+			audio_stop_sound(snd_countdown);
 			break;
 		}
 	}
