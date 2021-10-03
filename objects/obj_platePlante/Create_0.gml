@@ -3,7 +3,7 @@
 
 
 
-minX=room_width/2-125;
+minX=room_width/2-125.5;
 maxX=room_width/2+125;
 minY=16;
 maxY=161;
