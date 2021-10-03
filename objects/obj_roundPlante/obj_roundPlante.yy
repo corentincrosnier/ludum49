@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "spr_circle_plante",
+    "path": "sprites/spr_circle_plante/spr_circle_plante.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_form_circle",
+    "path": "objects/obj_form_circle/obj_form_circle.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsGroup": 1,
+  "physicsDensity": 50.0,
+  "physicsRestitution": 0.0,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 10.0,
+  "physicsFriction": 5.0,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [
+    {"x":16.0,"y":16.0,},
+    {"x":16.0,"y":16.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Plante",
+    "path": "folders/Objects/Forms/Plante.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_roundPlante",
+  "tags": [],
+  "resourceType": "GMObject",
+}

@@ -25,12 +25,22 @@ form_objs[0][0]=obj_triStar;
 form_objs[0][1]=obj_recStar;
 form_objs[0][2]=obj_squareStar;
 form_objs[0][3]=obj_roundStar;
-form_objs[1][0]=obj_triStar;
-form_objs[1][1]=obj_recStar;
-form_objs[1][2]=obj_squareStar;
-form_objs[1][3]=obj_roundStar;
-form_objs[2][0]=obj_triStar;
-form_objs[2][1]=obj_recStar;
-form_objs[2][2]=obj_squareStar;
-form_objs[2][3]=obj_roundStar;
 
+form_objs[1][0]=obj_triPlante;
+form_objs[1][1]=obj_recPlante;
+form_objs[1][2]=obj_squarePlante;
+form_objs[1][3]=obj_roundPlante;
+
+form_objs[2][0]=obj_triSpooky;
+form_objs[2][1]=obj_recSpooky;
+form_objs[2][2]=obj_squareSpooky;
+form_objs[2][3]=obj_roundSpooky;
+
+enum e_piece_type {
+	triangle,
+	rectangle,
+	square,
+	circle
+}
+
+randomize();

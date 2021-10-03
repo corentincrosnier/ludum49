@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-radius = 32;
+radius = 16;
 
 fix_circle = physics_fixture_create();
 physics_fixture_set_circle_shape(fix_circle, radius);

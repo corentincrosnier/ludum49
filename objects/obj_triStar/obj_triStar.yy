@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_triangle",
-    "path": "objects/obj_triangle/obj_triangle.yy",
+    "name": "obj_form_triangle",
+    "path": "objects/obj_form_triangle/obj_form_triangle.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,9 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":64.0,"y":64.0,},
-    {"x":0.0,"y":64.0,},
-    {"x":32.0,"y":-1.0,},
+    {"x":32.0,"y":32.0,},
+    {"x":0.0,"y":31.0,},
+    {"x":16.0,"y":0.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

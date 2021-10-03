@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "spr_triangle_plante",
+    "path": "sprites/spr_triangle_plante/spr_triangle_plante.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_form_triangle",
+    "path": "objects/obj_form_triangle/obj_form_triangle.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 2,
+  "physicsGroup": 1,
+  "physicsDensity": 50.0,
+  "physicsRestitution": 0.0,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 10.0,
+  "physicsFriction": 5.0,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [
+    {"x":64.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
+    {"x":32.0,"y":-1.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Plante",
+    "path": "folders/Objects/Forms/Plante.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_triPlante",
+  "tags": [],
+  "resourceType": "GMObject",
+}

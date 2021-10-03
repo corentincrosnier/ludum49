@@ -10,6 +10,20 @@ else if(position_meeting(mouse_x,mouse_y,obj_charSelect2)){
 else if(position_meeting(mouse_x,mouse_y,obj_charSelect3)){
 	selection=2;
 }
+else{
+	selection = -1;
+}
 
+show_debug_message("left");
 theme=selection;
-room_goto(Room1);
+switch(theme){
+	case 0:
+		room_goto(Room1);
+		break;
+	case 1: 
+		room_goto(Room2);
+		break;
+	case 2:
+		room_goto(Room1);
+		break;
+}

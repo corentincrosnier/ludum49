@@ -9,4 +9,5 @@ vsp=0;
 collided=false;
 grav=1;
 maxFallSpeed=5;
+touch = false;
 //physics_set_restitution(fixture);
