@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_plate2",
-    "path": "sprites/spr_plate2/spr_plate2.yy",
+    "name": "Sprite24",
+    "path": "sprites/Sprite24/Sprite24.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -12,7 +12,7 @@
     "path": "objects/obj_staticObject/obj_staticObject.yy",
   },
   "physicsObject": true,
-  "physicsSensor": false,
+  "physicsSensor": true,
   "physicsShape": 1,
   "physicsGroup": 1,
   "physicsDensity": 0.0,
@@ -24,14 +24,11 @@
   "physicsKinematic": false,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":50.0,"y":0.0,},
-    {"x":50.0,"y":8.0,},
-    {"x":0.0,"y":8.0,},
+    {"x":32.0,"y":0.0,},
+    {"x":32.0,"y":32.0,},
+    {"x":0.0,"y":32.0,},
   ],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -39,7 +36,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_plateStar",
+  "name": "obj_wallOneWay",
   "tags": [],
   "resourceType": "GMObject",
 }

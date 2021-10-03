@@ -3,7 +3,7 @@
 
 //GAME OVER
 for (i = 0; i < array_length(piece_array); i += 1)
-	instance_destroy(piece_array[i]);
+	instance_destroy(obj_form);
 
 cur_progression = 0;
 if (fail == false)

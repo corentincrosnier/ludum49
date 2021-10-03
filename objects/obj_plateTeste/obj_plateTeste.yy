@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_plate2",
-    "path": "sprites/spr_plate2/spr_plate2.yy",
+    "name": "spr_plateTeste",
+    "path": "sprites/spr_plateTeste/spr_plateTeste.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":50.0,"y":0.0,},
-    {"x":50.0,"y":8.0,},
+    {"x":30.0,"y":0.0,},
+    {"x":30.0,"y":8.0,},
     {"x":0.0,"y":8.0,},
   ],
   "eventList": [
@@ -39,7 +39,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_plateStar",
+  "name": "obj_plateTeste",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,8 +4,8 @@
 cursor_x = window_mouse_get_x() / (window_get_width() / room_width);
 cursor_y = window_mouse_get_y() / (window_get_height() / room_height);
 
-cursor_x = clamp(cursor_x, 0, room_width);
-cursor_y = clamp(cursor_y, 0, room_height);
+cursor_x = clamp(cursor_x, 0, room_width - 15);
+cursor_y = clamp(cursor_y, 0, room_height - 15);
 
 window_mouse_set(cursor_x * (window_get_width() / room_width), cursor_y * (window_get_height() / room_height));
 

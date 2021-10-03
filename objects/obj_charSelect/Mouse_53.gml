@@ -14,7 +14,6 @@ else{
 	selection = -1;
 }
 
-show_debug_message("left");
 theme=selection;
 switch(theme){
 	case 0:

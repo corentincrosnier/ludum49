@@ -5,7 +5,7 @@
 
 minX=room_width/2-125;
 maxX=room_width/2+125;
-minY=16;
+minY=19;
 maxY=161;
 spd=0.5;
 
@@ -23,4 +23,5 @@ prevMouseY=cursor_y;
 phy_position_x=mouse_x;
 phy_position_y=mouse_y;
 */
+
 
