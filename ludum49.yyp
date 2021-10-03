@@ -23,6 +23,7 @@
     {"id":{"name":"spr_rect_spooky","path":"sprites/spr_rect_spooky/spr_rect_spooky.yy",},"order":1,},
     {"id":{"name":"obj_charThumb","path":"objects/obj_charThumb/obj_charThumb.yy",},"order":3,},
     {"id":{"name":"spr_rec_plante","path":"sprites/spr_rec_plante/spr_rec_plante.yy",},"order":3,},
+    {"id":{"name":"bordPlante","path":"sprites/bordPlante/bordPlante.yy",},"order":5,},
     {"id":{"name":"doggy_sprit4","path":"sprites/doggy_sprit4/doggy_sprit4.yy",},"order":0,},
     {"id":{"name":"spr_plateTeste","path":"sprites/spr_plateTeste/spr_plateTeste.yy",},"order":6,},
     {"id":{"name":"obj_plateTeste","path":"objects/obj_plateTeste/obj_plateTeste.yy",},"order":9,},
