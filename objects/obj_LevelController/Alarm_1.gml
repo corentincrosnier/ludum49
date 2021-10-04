@@ -9,6 +9,7 @@ cur_progression = 0;
 if (fail == false)
 {
 	audio_play_sound(snd_timer_start, 1, false);
+	obj_startTimerController.alarm[0] = 1;
 	alarm[0]=room_speed * 3;
 	level++;
 }

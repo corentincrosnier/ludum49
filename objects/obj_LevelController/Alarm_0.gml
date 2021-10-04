@@ -23,7 +23,8 @@ if (!fail && level < nb_level && cur_progression < array_length(piece_tab[level]
 else if (!fail && level < nb_level && cur_progression == array_length(piece_tab[level]))
 {
 	obj_nextController.alarm[0] = 1;
-	alarm[1] = room_speed * 4;
+	alarm[1] = room_speed * 5;
 	audio_play_sound(snd_countdown, 1, false);
+	obj_validateTimerController.alarm[0] = 1;
 }
 

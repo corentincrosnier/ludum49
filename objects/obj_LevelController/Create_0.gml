@@ -105,8 +105,10 @@ piece_tab[15][1] = e_piece_type.circle;
 piece_tab[15][2] = e_piece_type.square;
 piece_tab[15][3] = e_piece_type.circle;
 
+globalvar fail;
 fail = false;
 audio_play_sound(snd_timer_start, 1, false);
+obj_startTimerController.alarm[0] = 1;
 
 switch(theme)
 {

@@ -29,7 +29,7 @@
     "path": "folders/Objects/Controllers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_startTimerController",
+  "name": "obj_validateTimerController",
   "tags": [],
   "resourceType": "GMObject",
 }
