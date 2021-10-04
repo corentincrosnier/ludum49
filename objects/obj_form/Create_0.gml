@@ -10,4 +10,5 @@ collided=false;
 grav=1;
 maxFallSpeed=5;
 touch = false;
+sound_collision = true;
 //physics_set_restitution(fixture);

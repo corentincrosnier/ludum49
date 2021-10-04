@@ -9,6 +9,7 @@ spawnRangeY=0;
 
 cur_piece_spawn_x = 0;
 cursor_spawn_y = 0;
+spawn_cur_visible = true;
 
 globalvar cur_progression;
 cur_progression = 0;
