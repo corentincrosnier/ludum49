@@ -36,7 +36,7 @@ switch(cur_number)
 		image_yscale = 1.5;
 		angle = -1;
 		alarm[1] = 5;
-		instance_create_depth(irandom_range(190,210),55,0,obj_holdit);
+		instance_create_depth(irandom_range(210,210),55,0,obj_holdit);
 		break;
 	case 5:
 		sprite_index = spr_5_rouge;

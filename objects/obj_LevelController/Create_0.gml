@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-spawnTime=2;
+spawnTime=0.8;
 spawnPointX=room_width/2;
-spawnPointY=-32;
-spawnRangeX=40;
+spawnPointY=-16;
+//spawnRangeX=40;
+spawnRangeX=60;
 spawnRangeY=0;
 
 firstStart=true;
