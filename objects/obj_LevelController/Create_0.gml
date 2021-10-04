@@ -8,11 +8,14 @@ spawnRangeX=40;
 spawnRangeY=0;
 
 cur_piece_spawn_x = 0;
-cursor_spawn_y = 16;
+cursor_spawn_y = 0;
 
+globalvar cur_progression;
 cur_progression = 0;
 
 nb_level = 15;
+
+globalvar piece_tab;
 
 //LEVEL 1
 piece_tab[0][0] = e_piece_type.rectangle;
@@ -113,6 +116,10 @@ switch(theme)
 	case 1:
 		audio_play_sound(snd_theme2Trim, 1, true);
 		break;
+	case 2:
+		audio_play_sound(snd_theme3Trim, 1, true);
+		break;
 }
+obj_nextController.alarm[0] = 1;
 alarm[0]=room_speed*3;
 //alarm[0]=2;

@@ -7,3 +7,4 @@ piece_array[cur_progression] = instance_create_layer(sp_x, sp_y, "Instances", fo
 instance_destroy(obj_spawnPieceCursor);
 
 cur_progression++;
+obj_nextController.alarm[0] = 1;

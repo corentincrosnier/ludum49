@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_plate2",
-    "path": "sprites/spr_plate2/spr_plate2.yy",
+    "name": "spr_plate_star",
+    "path": "sprites/spr_plate_star/spr_plate_star.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":50.0,"y":0.0,},
-    {"x":50.0,"y":8.0,},
+    {"x":61.0,"y":0.0,},
+    {"x":61.0,"y":8.0,},
     {"x":0.0,"y":8.0,},
   ],
   "eventList": [

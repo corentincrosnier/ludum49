@@ -14,13 +14,15 @@ if (!fail && level < nb_level && cur_progression < array_length(piece_tab[level]
 {
 	cur_piece_spawn_x = irandom_range(spawnPointX-spawnRangeX,spawnPointX+spawnRangeX);
 	var sp_x = cur_piece_spawn_x;
-	var sp_y = cursor_spawn_y - sprite_get_height(object_get_sprite(asset_get_index("obj_spawnPieceCursor")));
+	var sp_y = cursor_spawn_y;
+	sp_y = 0;
 	instance_create_layer(sp_x, sp_y, "Instances_front", obj_spawnPieceCursor);
 	alarm[2] = room_speed * 2;
 }
 
 else if (!fail && level < nb_level && cur_progression == array_length(piece_tab[level]))
 {
+	obj_nextController.alarm[0] = 1;
 	alarm[1] = room_speed * 4;
 	audio_play_sound(snd_countdown, 1, false);
 }
