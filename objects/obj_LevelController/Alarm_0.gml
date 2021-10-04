@@ -23,7 +23,8 @@ if (!fail && level < nb_level && cur_progression < array_length(piece_tab[level]
 	var sp_x = cur_piece_spawn_x;
 	var sp_y = cursor_spawn_y;
 	sp_y = 0;
-	instance_create_layer(sp_x, sp_y, "Instances_front", obj_spawnPieceCursor);
+	//instance_create_layer(sp_x, sp_y, "Instances_front", obj_spawnPieceCursor);
+	instance_create_layer(sp_x, sp_y, "Controllers", obj_spawnPieceCursor);
 	alarm[2] = room_speed * 0.6;
 	alarm[3] = 1;
 }

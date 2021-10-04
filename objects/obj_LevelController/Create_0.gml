@@ -17,6 +17,7 @@ spawn_cur_visible = true;
 globalvar cur_progression;
 cur_progression = 0;
 
+globalvar nb_level;
 nb_level = 15;
 
 globalvar piece_tab;
@@ -104,10 +105,10 @@ piece_tab[13][2] = e_piece_type.circle;
 piece_tab[13][3] = e_piece_type.triangle;
 
 //LEVEL 15
-piece_tab[15][0] = e_piece_type.circle;
-piece_tab[15][1] = e_piece_type.circle;
-piece_tab[15][2] = e_piece_type.square;
-piece_tab[15][3] = e_piece_type.circle;
+piece_tab[14][0] = e_piece_type.circle;
+piece_tab[14][1] = e_piece_type.circle;
+piece_tab[14][2] = e_piece_type.square;
+piece_tab[14][3] = e_piece_type.circle;
 
 globalvar fail;
 fail = false;

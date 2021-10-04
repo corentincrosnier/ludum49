@@ -68,6 +68,9 @@ else
 }
 if (fail)
 {
+	if(instance_exists(obj_holdit)){
+		with(obj_holdit) instance_destroy(self);
+	}
 	visible = false;
 	cur_number = 4;
 	alarm[0] = 0;
