@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_miniature_carre_nuit",
-    "path": "sprites/spr_miniature_carre_nuit/spr_miniature_carre_nuit.yy",
+    "name": "miniature_carre_nuit",
+    "path": "sprites/miniature_carre_nuit/miniature_carre_nuit.yy",
   },
   "solid": false,
   "visible": true,

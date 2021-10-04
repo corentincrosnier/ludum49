@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_form1",
-    "path": "sprites/spr_form1/spr_form1.yy",
+    "name": "curseur_2",
+    "path": "sprites/curseur_2/curseur_2.yy",
   },
   "solid": false,
   "visible": true,

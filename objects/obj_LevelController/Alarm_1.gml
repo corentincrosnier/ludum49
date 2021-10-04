@@ -14,4 +14,5 @@ if (fail == false)
 }
 else
 	alarm[0]=room_speed * spawnTime;
+obj_nextController.alarm[0] = 1;
 fail = false;

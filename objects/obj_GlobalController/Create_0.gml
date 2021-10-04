@@ -36,6 +36,22 @@ form_objs[2][1]=obj_recSpooky;
 form_objs[2][2]=obj_squareSpooky;
 form_objs[2][3]=obj_roundSpooky;
 
+globalvar thumb_sprite;
+thumb_sprite[0][0]=miniature_tri_nuit;
+thumb_sprite[0][1]=miniature_rect_nuit;
+thumb_sprite[0][2]=miniature_carre_nuit;
+thumb_sprite[0][3]=miniature_rond_nuit;
+
+thumb_sprite[1][0]=miniature_tri_plante;
+thumb_sprite[1][1]=miniature_rect_plante;
+thumb_sprite[1][2]=miniature_carre_plante;
+thumb_sprite[1][3]=miniature_rond_plante;
+
+thumb_sprite[2][0]=miniature_tri_spooky;
+thumb_sprite[2][1]=miniature_rect_spooky;
+thumb_sprite[2][2]=miniature_carre_spooky;
+thumb_sprite[2][3]=miniature_rond_spooky;
+
 enum e_piece_type {
 	triangle,
 	rectangle,
