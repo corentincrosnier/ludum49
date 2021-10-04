@@ -21,13 +21,14 @@ else{
 }
 
 with(obj_charThumb){
-	if(id==asset_get_index("obj_charSelect"+string(other.selection+1))){
+	if(charId==other.selection+1){
 		image_index=1;
 	}
 	else{
 		image_index=0;
 	}
 }
+
 with(obj_border){
 	if(border_id==other.selection+1){
 		image_index=1;
@@ -36,6 +37,7 @@ with(obj_border){
 		image_index=0;
 	}
 }
+
 
 /*
 if(prevSelec!=selection){

@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-cur_number = 4;
-angle = 1;
+image_angle=random_range(320,400)%360;

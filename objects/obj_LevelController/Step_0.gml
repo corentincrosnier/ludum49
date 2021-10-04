@@ -22,6 +22,7 @@ if (!fail)
 			alarm[1] = room_speed * 2;
 			audio_play_sound(snd_loss, 1, false);
 			audio_stop_sound(snd_countdown);
+			layer_sprite_index(charId,2);
 			break;
 		}
 	}

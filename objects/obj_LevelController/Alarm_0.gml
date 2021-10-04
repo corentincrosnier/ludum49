@@ -15,6 +15,8 @@ if(firstStart){
 	firstStart=false;
 }
 
+layer_sprite_index(charId,0);
+
 if (!fail && level < nb_level && cur_progression < array_length(piece_tab[level]))
 {
 	cur_piece_spawn_x = irandom_range(spawnPointX-spawnRangeX,spawnPointX+spawnRangeX);
@@ -29,7 +31,9 @@ if (!fail && level < nb_level && cur_progression < array_length(piece_tab[level]
 else if (!fail && level < nb_level && cur_progression == array_length(piece_tab[level]))
 {
 	obj_nextController.alarm[0] = 1;
-	alarm[1] = room_speed * 5;
+	alarm[1] = room_speed * 4;
+	
+	layer_sprite_index(charId,5);
 	audio_play_sound(snd_countdown, 1, false);
 	obj_validateTimerController.alarm[0] = 1;
 	audio_sound_gain(asset_get_index("snd_level"+string(theme+1)),gainLvl[theme]/2,0);

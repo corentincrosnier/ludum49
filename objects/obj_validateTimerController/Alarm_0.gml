@@ -36,6 +36,7 @@ switch(cur_number)
 		image_yscale = 1.5;
 		angle = -1;
 		alarm[1] = 5;
+		instance_create_depth(irandom_range(190,210),55,0,obj_holdit);
 		break;
 	case 5:
 		sprite_index = spr_5_rouge;
@@ -53,7 +54,10 @@ if (cur_number == 0)
 	sprite_index = noone;
 	visible = false;
 	alarm[1] = 0;
-	cur_number = 5;
+	cur_number = 4;
+	if(instance_exists(obj_holdit)){
+		with(obj_holdit) instance_destroy(self);
+	}
 }
 
 else
@@ -65,6 +69,6 @@ else
 if (fail)
 {
 	visible = false;
-	cur_number = 5;
+	cur_number = 4;
 	alarm[0] = 0;
 }

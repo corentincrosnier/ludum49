@@ -10,6 +10,8 @@ cur_progression = 0;
 audio_sound_gain(asset_get_index("snd_level"+string(theme+1)),gainLvl[theme],0);
 if (fail == false)
 {
+	
+	layer_sprite_index(charId,4);
 	audio_play_sound(snd_timer_start, 1, false);
 	obj_startTimerController.alarm[0] = 1;
 	alarm[0]=room_speed * 3;

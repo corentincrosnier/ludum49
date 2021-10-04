@@ -113,6 +113,10 @@ fail = false;
 audio_play_sound(snd_timer_start, 1, false);
 obj_startTimerController.alarm[0] = 1;
 
+layerId=layer_get_id("Assets_front");
+charId=layer_sprite_get_id(layerId,"char"+string(theme+1));
+layer_sprite_speed(charId,0);
+layer_sprite_index(charId,0);
 
 //audio_play_sound(asset_get_index("snd_level"+string(theme+1)),1,true);
 /*
