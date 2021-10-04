@@ -50,5 +50,6 @@ if (cur_number == -1)
 else
 {
 	cur_number--;
-	alarm[0] = 0.7 * room_speed;
+	//alarm[0] = 0.7 * room_speed;
+	alarm[0] = 0.9 * room_speed;
 }

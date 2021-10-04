@@ -10,6 +10,11 @@
 
 //instance_create_layer(irandom_range(spawnPointX-spawnRangeX,spawnPointX+spawnRangeX),irandom_range(spawnPointY-spawnRangeY,spawnPointY+spawnRangeY),"Instances",form_objs[theme][irandom(array_length(form_objs[theme]) - 1)]);
 
+if(firstStart){
+	audio_play_sound(asset_get_index("snd_level"+string(theme+1)),1,true);
+	firstStart=false;
+}
+
 if (!fail && level < nb_level && cur_progression < array_length(piece_tab[level]))
 {
 	cur_piece_spawn_x = irandom_range(spawnPointX-spawnRangeX,spawnPointX+spawnRangeX);

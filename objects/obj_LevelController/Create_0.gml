@@ -7,6 +7,8 @@ spawnPointY=-32;
 spawnRangeX=40;
 spawnRangeY=0;
 
+firstStart=true;
+
 cur_piece_spawn_x = 0;
 cursor_spawn_y = 0;
 spawn_cur_visible = true;
@@ -112,7 +114,7 @@ audio_play_sound(snd_timer_start, 1, false);
 obj_startTimerController.alarm[0] = 1;
 
 
-audio_play_sound(asset_get_index("snd_level"+string(theme+1)),1,true);
+//audio_play_sound(asset_get_index("snd_level"+string(theme+1)),1,true);
 /*
 switch(theme)
 {
