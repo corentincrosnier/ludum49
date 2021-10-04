@@ -61,9 +61,19 @@ enum e_piece_type {
 
 randomize();
 
-audio_sound_gain(snd_theme1V2, 1, 0);
-audio_sound_gain(snd_theme2Trim, 0.5, 0);
-audio_sound_gain(snd_theme3Trim, 1, 0);
-audio_sound_gain(snd_countdown, 0.4, 0);
-audio_sound_gain(snd_timer_start, 0.4, 0);
-audio_sound_gain(snd_loss, 0.4, 0);
+globalvar credits;
+credits=false;
+title=false;
+
+globalvar gainLvl;
+gainLvl[0]=0.8;
+gainLvl[1]=0.7;
+gainLvl[2]=0.38;
+
+audio_sound_gain(snd_level1, gainLvl[0], 0);
+audio_sound_gain(snd_level2, gainLvl[1], 0);
+audio_sound_gain(snd_level3, gainLvl[2], 0);
+audio_sound_gain(snd_title, 0.17, 0);
+audio_sound_gain(snd_countdown, 0.6, 0);
+audio_sound_gain(snd_timer_start, 0.6, 0);
+audio_sound_gain(snd_loss, 0.6, 0);
