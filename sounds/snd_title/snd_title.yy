@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_theme3Trim.wav",
-  "duration": 71.99771,
+  "soundFile": "snd_title.wav",
+  "duration": 59.0723343,
   "parent": {
     "name": "theme",
     "path": "folders/Sounds/theme.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_theme3Trim",
+  "name": "snd_title",
   "tags": [],
   "resourceType": "GMSound",
 }

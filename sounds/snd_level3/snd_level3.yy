@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "spookyTrim.wav",
+  "soundFile": "snd_level3.wav",
   "duration": 96.00116,
   "parent": {
     "name": "theme",
     "path": "folders/Sounds/theme.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spookyTrim",
+  "name": "snd_level3",
   "tags": [],
   "resourceType": "GMSound",
 }

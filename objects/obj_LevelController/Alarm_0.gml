@@ -25,5 +25,6 @@ else if (!fail && level < nb_level && cur_progression == array_length(piece_tab[
 	obj_nextController.alarm[0] = 1;
 	alarm[1] = room_speed * 4;
 	audio_play_sound(snd_countdown, 1, false);
+	audio_sound_gain(asset_get_index("snd_level"+string(theme+1)),gainLvl[theme]/2,0);
 }
 

@@ -14,6 +14,11 @@ else{
 	selection = -1;
 }
 
+if(position_meeting(mouse_x,mouse_y,obj_credits)){
+	credits=true;
+	room_goto(Credits);
+}
+
 theme=selection;
 switch(theme){
 	case 0:

@@ -108,18 +108,25 @@ piece_tab[15][3] = e_piece_type.circle;
 fail = false;
 audio_play_sound(snd_timer_start, 1, false);
 
+
+audio_play_sound(asset_get_index("snd_level"+string(theme+1)),1,true);
+/*
 switch(theme)
 {
 	case 0:
 		audio_play_sound(snd_theme1V2, 1, true);
 		break;
 	case 1:
-		audio_play_sound(snd_theme2Trim, 1, true);
-		break;
-	case 2:
+		//audio_play_sound(snd_theme2Trim, 1, true);
 		audio_play_sound(snd_theme3Trim, 1, true);
 		break;
+	case 2:
+		//audio_play_sound(snd_theme3Trim, 1, true);
+		audio_play_sound(snd_spookyTrim, 1, true);
+		break;
 }
+*/
+
 obj_nextController.alarm[0] = 1;
 alarm[0]=room_speed*3;
 //alarm[0]=2;
